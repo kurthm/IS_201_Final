@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Analytics</title>
+    <link rel="stylesheet" href="css/mystylesheet.css">
+</head>
+<body>
+<div class="pageheader">Hockey Analytics: Understanding the Game</div>
+<a href="index.html">Back to Home Page</a>
+<h1 id="top">Shot Analytics</h1>
+<a href="#shotmaps">Jump to Shot Maps<a>
+<p>Analytics have become increasingly important in many sports today; the same is true for the sport of ice hockey. One aspect of the game that is commonly studied
+    is the spatial location of a player shooting a puck at a goaltender. This type of analysis aims to answer a few questions.
+</p>
+<ol>
+    <li class="heavyi">Is there an "optimal shot location" for every player?</li>
+        <ul>
+            <li class="greenli">Is this true regardless of player handedness?</li>
+            <li class="greenli">Is it true regardless of the player's assigned position?</li>
+        </ul>
+    <li class="heavyi">Do some players tend to miss shots from a specific location? </li>
+        <ul>
+            <li class="greenli">Is their success random in relation to location?</li>
+            <li class="greenli">Are there trends of locations from which more players take shots?</li>
+        </ul>
+    <li class="heavyi">We know that cycling can be done to get into good position. Where is that position?</li>
+    <ul>
+        <li class="greenli">Our analysis here may not answer this, but can provide some good insight</li>
+    </ul>
+</ol>
+<br>
+<br>
+<p>In order to gain some intuition as to how shot location varies, we begin with exploratory data analysis (EDA) using a scatterplot overlay on an ice rink.</p>
+<div>   
+    <img src="assets/img/Cirelli_shots.png" width=500 alt="Ice rink with Anthony Cirelli 2018-2019 season shot location scatterplot overlay">
+</div>
+<h2><span class="heavyi">How to Use</span> Shot Location Info</h2>
+<p><span class="heavyi">Cycling</span> is a practice used by forward lines in order to maintain posession of the puck while in the offensive zone. It is a way of keeping the puck while forwards move into higher scoring percentage regions. This following video explains how cycling works. If a player know where they will have the most success on a shot, they can cylce with their linemates until one of them is able to get a shot off at that location.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/MnnV78zSpXk?si=OOs7Xh0LE4_KwxRP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<h2 id="shotmaps" class="tbwhite">Tampa Bay Lightning Shot Maps</h2>
+<div class="boxblue">
+    <img src="assets/img/Stamkos_shots.png" alt="Ice rink with Steven Stamkos 2018-2019 season shot location scatterplot overlay">
+</div>
+<br>
+<div class="boxgray">
+    <img src="assets/img/Kucherov_shots.png" alt="Ice rink with Nikita Kucherov 2018-2019 season shot location scatterplot overlay">
+</div>
+<br>
+<div class="boxblue">
+    <img src="assets/img/Point_shots.png" alt="Ice rink with Brayden Point 2018-2019 season shot location scatterplot overlay">
+</div>
+<br>
+<h2>Regular Season Overtime Team Shooting Habits</h2> 
+<div class='tableauPlaceholder' id='viz1713673982088' style='position: relative'><noscript><a href='#'><img alt='2018-2019 Regular Season Total OT Shots by Team ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;IS&#47;IS201_Hockey_Analytics&#47;Sheet2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='IS201_Hockey_Analytics&#47;Sheet2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;IS&#47;IS201_Hockey_Analytics&#47;Sheet2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1713673982088');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+<p class="quote">"You miss 100% of the shots you don't take." - Wayne Gretzky</p>
+<a href="#top">Jump to Top of Page</a>
+<br>
+<br>
+<br>
+<br>
+<div class="footerright">
+    MK Management
+</div>
+<div class="footer">
+    www.mkanalytics.com | Hockey Analytics | Shot Location 
+</div>
+
+</body>
+</html>
